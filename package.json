@@ -19,6 +19,7 @@
     "pre-commit": "lint-staged"
   },
   "dependencies": {
+    "@dnlup/fastify-traps": "2.0.0",
     "@monkee/turbo-config": "0.12.1",
     "fastify": "4.5.3",
     "source-map-support": "0.5.21",
