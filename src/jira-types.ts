@@ -3,30 +3,50 @@
 export enum WEBHOOK_EVENT {
   ISSUE_CREATED = 'jira:issue_created',
   ISSUE_UPDATED = 'jira:issue_updated',
-  COMMENT_CREATED = 'comment_updated',
+  COMMENT_CREATED = 'comment_created',
   COMMENT_UPDATED = 'comment_updated',
 }
 
 export type JiraWebhook = {
   timestamp: number;
-  webhookEvent: string;
-  comment: Comment;
+  webhookEvent: WEBHOOK_EVENT;
+  issue_event_type_name?: string;
+  user?: User;
+  comment?: Comment;
   issue: Issue;
   eventType: string;
+  changelog?: Changelog;
+};
+
+export type Changelog = {
+  id: string;
+  items: Item[];
+};
+
+export type Item = {
+  field: string;
+  fieldtype: string;
+  fieldId: string;
+  from: null;
+  fromString: null;
+  to: null | string;
+  toString: string;
+  tmpFromAccountId?: null;
+  tmpToAccountId?: string;
 };
 
 export type Comment = {
   self: string;
   id: string;
-  author: Author;
+  author: User;
   body: string;
-  updateAuthor: Author;
+  updateAuthor: User;
   created: string;
   updated: string;
   jsdPublic: boolean;
 };
 
-export type Author = {
+export type User = {
   self: string;
   accountId: string;
   avatarUrls: AvatarUrls;
@@ -54,9 +74,16 @@ export type Fields = {
   summary: string;
   issuetype: Issuetype;
   project: Project;
-  assignee: Author;
+  assignee: User;
   priority: Priority;
   status: Status;
+  creator?: User;
+  reporter?: User;
+  subtasks?: unknown[];
+  created?: string;
+  updated?: string;
+  description?: string;
+  duedate: string | null;
 };
 
 export type Issuetype = {
