@@ -8,8 +8,10 @@
     "sourceMap": true,
     "outDir": "./dist",
     "strict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "esModuleInterop": false, // enable if you having problems with compilation
-    "skipLibCheck": false,  // enable if you having problems with compilation
+    "skipLibCheck": true,  // enable if you having problems with compilation
     "noUncheckedIndexedAccess": true,
     "forceConsistentCasingInFileNames": true,
     "types": ["node", "jest"]

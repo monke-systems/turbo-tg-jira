@@ -1,5 +1,11 @@
-const main = () => {
-  process.stdout.write('Zdorova');
+import { compileConfig } from '@monkee/turbo-config';
+import { AppConfig } from './config';
+import { startWebhookServer } from './webhook-server/webhook-server';
+
+const main = async () => {
+  const { config } = await compileConfig(AppConfig);
+
+  await startWebhookServer(config.webhookServer);
 };
 
-main();
+main().catch(console.error);
