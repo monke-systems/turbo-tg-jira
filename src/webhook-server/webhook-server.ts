@@ -19,7 +19,7 @@ export const startWebhookServer = async (config: WebhookServerConfig) => {
     method: 'POST',
     url: config.path,
     handler: async (req) => {
-      console.log('webhook body log', JSON.stringify(req.body, null, 2));
+      console.log('webhook body log', JSON.stringify(req.body));
       return Promise.resolve();
     },
   });
