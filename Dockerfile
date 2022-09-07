@@ -20,4 +20,4 @@ RUN npm i --no-audit --omit=dev
 
 COPY --from=build /app/dist .
 
-CMD ["node", "-r" "source-map-support", "index.js"]
+CMD ["node", "-r", "source-map-support", "index.js"]
