@@ -1,0 +1,5 @@
+📝 <a href='{{ issue.self }}'>{{ issue.key}}</a> {{#eq webhookEvent "comment_created" }}новый коммент{{/eq}}{{#eq webhookEvent "comment_updated" }}коммент обновлен{{/eq}}
+🔍 {{ issue.fields.summary }}
+👤 <a href='{{ comment.author.self }}'>{{ comment.author.displayName }}</a>:
+
+{{ comment.body }}

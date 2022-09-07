@@ -1,0 +1,317 @@
+{
+  "timestamp": 1662565672788,
+  "webhookEvent": "jira:issue_created",
+  "issue_event_type_name": "issue_created",
+  "user": {
+    "self": "https://some-team.atlassian.net/rest/api/2/user?accountId=5f6e0a2e473df20070738d4a",
+    "accountId": "5f6e0a2e473df20070738d4a",
+    "avatarUrls": {
+      "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/48",
+      "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/24",
+      "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/16",
+      "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/32"
+    },
+    "displayName": "Vlad May",
+    "active": true,
+    "timeZone": "Etc/GMT",
+    "accountType": "atlassian"
+  },
+  "issue": {
+    "id": "22889",
+    "self": "https://some-team.atlassian.net/rest/api/2/22889",
+    "key": "CAS-688",
+    "fields": {
+      "statuscategorychangedate": "2022-09-07T15:47:52.930+0000",
+      "customfield_10070": null,
+      "customfield_10071": null,
+      "customfield_10072": null,
+      "customfield_10073": null,
+      "customfield_10074": null,
+      "customfield_10075": null,
+      "customfield_10076": null,
+      "fixVersions": [],
+      "customfield_10077": null,
+      "customfield_10078": null,
+      "resolution": null,
+      "customfield_10079": null,
+      "lastViewed": null,
+      "customfield_10060": null,
+      "customfield_10061": null,
+      "customfield_10062": null,
+      "customfield_10063": null,
+      "customfield_10065": null,
+      "customfield_10066": null,
+      "priority": {
+        "self": "https://some-team.atlassian.net/rest/api/2/priority/10002",
+        "iconUrl": "https://some-team.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium (migrated)",
+        "id": "10002"
+      },
+      "customfield_10067": null,
+      "customfield_10068": null,
+      "customfield_10069": null,
+      "timeestimate": null,
+      "aggregatetimeoriginalestimate": null,
+      "issuelinks": [],
+      "assignee": {
+        "self": "https://some-team.atlassian.net/rest/api/2/user?accountId=5f6e0a2e473df20070738d4a",
+        "accountId": "5f6e0a2e473df20070738d4a",
+        "avatarUrls": {
+          "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/48",
+          "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/24",
+          "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/16",
+          "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/32"
+        },
+        "displayName": "Vlad May",
+        "active": true,
+        "timeZone": "Etc/GMT",
+        "accountType": "atlassian"
+      },
+      "status": {
+        "self": "https://some-team.atlassian.net/rest/api/2/status/10000",
+        "description": "",
+        "iconUrl": "https://some-team.atlassian.net/",
+        "name": "Backlog",
+        "id": "10000",
+        "statusCategory": {
+          "self": "https://some-team.atlassian.net/rest/api/2/statuscategory/2",
+          "id": 2,
+          "key": "new",
+          "colorName": "blue-gray",
+          "name": "New"
+        }
+      },
+      "customfield_10050": null,
+      "customfield_10051": null,
+      "customfield_10052": null,
+      "customfield_10053": null,
+      "customfield_10056": null,
+      "customfield_10057": null,
+      "customfield_10059": null,
+      "customfield_10049": null,
+      "aggregatetimeestimate": null,
+      "creator": {
+        "self": "https://some-team.atlassian.net/rest/api/2/user?accountId=5f6e0a2e473df20070738d4a",
+        "accountId": "5f6e0a2e473df20070738d4a",
+        "avatarUrls": {
+          "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/48",
+          "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/24",
+          "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/16",
+          "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/32"
+        },
+        "displayName": "Vlad May",
+        "active": true,
+        "timeZone": "Etc/GMT",
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "customfield_10041": null,
+      "customfield_10043": null,
+      "reporter": {
+        "self": "https://some-team.atlassian.net/rest/api/2/user?accountId=5f6e0a2e473df20070738d4a",
+        "accountId": "5f6e0a2e473df20070738d4a",
+        "avatarUrls": {
+          "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/48",
+          "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/24",
+          "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/16",
+          "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/32"
+        },
+        "displayName": "Vlad May",
+        "active": true,
+        "timeZone": "Etc/GMT",
+        "accountType": "atlassian"
+      },
+      "aggregateprogress": { "progress": 0, "total": 0 },
+      "customfield_10044": null,
+      "customfield_10045": null,
+      "customfield_10046": null,
+      "customfield_10047": null,
+      "customfield_10048": null,
+      "customfield_10039": null,
+      "progress": { "progress": 0, "total": 0 },
+      "votes": {
+        "self": "https://some-team.atlassian.net/rest/api/2/issue/CAS-688/votes",
+        "votes": 0,
+        "hasVoted": false
+      },
+      "issuetype": {
+        "self": "https://some-team.atlassian.net/rest/api/2/issuetype/10002",
+        "id": "10002",
+        "description": "A small, distinct piece of work.",
+        "iconUrl": "https://some-team.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+        "name": "Task",
+        "subtask": false,
+        "avatarId": 10318,
+        "hierarchyLevel": 0
+      },
+      "timespent": null,
+      "customfield_10030": null,
+      "project": {
+        "self": "https://some-team.atlassian.net/rest/api/2/project/10024",
+        "id": "10024",
+        "key": "CAS",
+        "name": "Casino",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://some-team.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10400",
+          "24x24": "https://some-team.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10400?size=small",
+          "16x16": "https://some-team.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10400?size=xsmall",
+          "32x32": "https://some-team.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10400?size=medium"
+        },
+        "projectCategory": {
+          "self": "https://some-team.atlassian.net/rest/api/2/projectCategory/10001",
+          "id": "10001",
+          "description": "",
+          "name": "Production"
+        }
+      },
+      "customfield_10033": [],
+      "aggregatetimespent": null,
+      "customfield_10034": null,
+      "customfield_10035": null,
+      "customfield_10036": null,
+      "customfield_10037": null,
+      "customfield_10027": null,
+      "customfield_10028": null,
+      "customfield_10029": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "watches": {
+        "self": "https://some-team.atlassian.net/rest/api/2/issue/CAS-688/watchers",
+        "watchCount": 0,
+        "isWatching": true
+      },
+      "issuerestriction": { "issuerestrictions": {}, "shouldDisplay": false },
+      "created": "2022-09-07T15:47:52.649+0000",
+      "customfield_10020": null,
+      "customfield_10021": null,
+      "customfield_10022": null,
+      "customfield_10023": null,
+      "customfield_10024": null,
+      "customfield_10025": null,
+      "customfield_10026": null,
+      "customfield_10016": null,
+      "customfield_10017": null,
+      "customfield_10018": {
+        "hasEpicLinkFieldDependency": true,
+        "showField": true,
+        "nonEditableReason": {
+          "reason": "PLUGIN_LICENSE_ERROR",
+          "message": "The Parent Link is only available to Jira Premium users."
+        }
+      },
+      "customfield_10019": "0|i02jhz:",
+      "updated": "2022-09-07T15:47:52.649+0000",
+      "customfield_10090": {
+        "self": "https://some-team.atlassian.net/rest/api/2/customFieldOption/10047",
+        "value": "Нет",
+        "id": "10047"
+      },
+      "customfield_10091": null,
+      "customfield_10092": null,
+      "customfield_10093": null,
+      "timeoriginalestimate": null,
+      "description": "Test casino task description",
+      "customfield_10010": null,
+      "customfield_10014": null,
+      "customfield_10015": null,
+      "timetracking": {},
+      "customfield_10005": null,
+      "customfield_10006": null,
+      "security": null,
+      "customfield_10007": null,
+      "customfield_10008": null,
+      "customfield_10009": null,
+      "attachment": [],
+      "summary": "Test Casino task",
+      "customfield_10080": null,
+      "customfield_10081": null,
+      "customfield_10083": null,
+      "customfield_10085": null,
+      "customfield_10086": null,
+      "customfield_10087": null,
+      "customfield_10088": null,
+      "customfield_10000": "{}",
+      "customfield_10089": null,
+      "customfield_10001": null,
+      "customfield_10002": null,
+      "customfield_10003": null,
+      "customfield_10004": null,
+      "environment": null,
+      "duedate": null
+    }
+  },
+  "changelog": {
+    "id": "152845",
+    "items": [
+      {
+        "field": "assignee",
+        "fieldtype": "jira",
+        "fieldId": "assignee",
+        "from": null,
+        "fromString": null,
+        "to": "5f6e0a2e473df20070738d4a",
+        "toString": "Vlad May",
+        "tmpFromAccountId": null,
+        "tmpToAccountId": "5f6e0a2e473df20070738d4a"
+      },
+      {
+        "field": "Задачу на документацию?",
+        "fieldtype": "custom",
+        "fieldId": "customfield_10090",
+        "from": null,
+        "fromString": null,
+        "to": "10047",
+        "toString": "Нет"
+      },
+      {
+        "field": "description",
+        "fieldtype": "jira",
+        "fieldId": "description",
+        "from": null,
+        "fromString": null,
+        "to": null,
+        "toString": "Test casino task description"
+      },
+      {
+        "field": "priority",
+        "fieldtype": "jira",
+        "fieldId": "priority",
+        "from": null,
+        "fromString": null,
+        "to": "10002",
+        "toString": "Medium (migrated)"
+      },
+      {
+        "field": "reporter",
+        "fieldtype": "jira",
+        "fieldId": "reporter",
+        "from": null,
+        "fromString": null,
+        "to": "5f6e0a2e473df20070738d4a",
+        "toString": "Vlad May",
+        "tmpFromAccountId": null,
+        "tmpToAccountId": "5f6e0a2e473df20070738d4a"
+      },
+      {
+        "field": "Status",
+        "fieldtype": "jira",
+        "fieldId": "status",
+        "from": null,
+        "fromString": null,
+        "to": "10000",
+        "toString": "Backlog"
+      },
+      {
+        "field": "summary",
+        "fieldtype": "jira",
+        "fieldId": "summary",
+        "from": null,
+        "fromString": null,
+        "to": null,
+        "toString": "Test Casino task"
+      }
+    ]
+  }
+}

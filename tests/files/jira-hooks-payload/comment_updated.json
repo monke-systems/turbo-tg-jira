@@ -1,0 +1,112 @@
+{
+  "timestamp": 1662565843311,
+  "webhookEvent": "comment_updated",
+  "comment": {
+    "self": "https://some-team.atlassian.net/rest/api/2/issue/22889/comment/40461",
+    "id": "40461",
+    "author": {
+      "self": "https://some-team.atlassian.net/rest/api/2/user?accountId=5f6e0a2e473df20070738d4a",
+      "accountId": "5f6e0a2e473df20070738d4a",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/32"
+      },
+      "displayName": "Vlad May",
+      "active": true,
+      "timeZone": "Etc/GMT",
+      "accountType": "atlassian"
+    },
+    "body": "comment updated",
+    "updateAuthor": {
+      "self": "https://some-team.atlassian.net/rest/api/2/user?accountId=5f6e0a2e473df20070738d4a",
+      "accountId": "5f6e0a2e473df20070738d4a",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/32"
+      },
+      "displayName": "Vlad May",
+      "active": true,
+      "timeZone": "Etc/GMT",
+      "accountType": "atlassian"
+    },
+    "created": "2022-09-07T15:50:10.451+0000",
+    "updated": "2022-09-07T15:50:43.311+0000",
+    "jsdPublic": true
+  },
+  "issue": {
+    "id": "22889",
+    "self": "https://some-team.atlassian.net/rest/api/2/22889",
+    "key": "CAS-688",
+    "fields": {
+      "summary": "Test Casino task",
+      "issuetype": {
+        "self": "https://some-team.atlassian.net/rest/api/2/issuetype/10002",
+        "id": "10002",
+        "description": "A small, distinct piece of work.",
+        "iconUrl": "https://some-team.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+        "name": "Task",
+        "subtask": false,
+        "avatarId": 10318,
+        "hierarchyLevel": 0
+      },
+      "project": {
+        "self": "https://some-team.atlassian.net/rest/api/2/project/10024",
+        "id": "10024",
+        "key": "CAS",
+        "name": "Casino",
+        "projectTypeKey": "software",
+        "simplified": false,
+        "avatarUrls": {
+          "48x48": "https://some-team.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10400",
+          "24x24": "https://some-team.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10400?size=small",
+          "16x16": "https://some-team.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10400?size=xsmall",
+          "32x32": "https://some-team.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10400?size=medium"
+        },
+        "projectCategory": {
+          "self": "https://some-team.atlassian.net/rest/api/2/projectCategory/10001",
+          "id": "10001",
+          "description": "",
+          "name": "Production"
+        }
+      },
+      "assignee": {
+        "self": "https://some-team.atlassian.net/rest/api/2/user?accountId=5f6e0a2e473df20070738d4a",
+        "accountId": "5f6e0a2e473df20070738d4a",
+        "avatarUrls": {
+          "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/48",
+          "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/24",
+          "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/16",
+          "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5f6e0a2e473df20070738d4a/65e5162a-22c2-4542-bafd-e3cd4c1b5b75/32"
+        },
+        "displayName": "Vlad May",
+        "active": true,
+        "timeZone": "Etc/GMT",
+        "accountType": "atlassian"
+      },
+      "priority": {
+        "self": "https://some-team.atlassian.net/rest/api/2/priority/10002",
+        "iconUrl": "https://some-team.atlassian.net/images/icons/priorities/medium.svg",
+        "name": "Medium (migrated)",
+        "id": "10002"
+      },
+      "status": {
+        "self": "https://some-team.atlassian.net/rest/api/2/status/10046",
+        "description": "Этот статус управляется Jira Software на внутреннем уровне (Migrated on 27 Aug 2022 14:01 UTC) (Migrated on 5 Sep 2022 15:07 UTC)",
+        "iconUrl": "https://some-team.atlassian.net/images/icons/statuses/generic.png",
+        "name": "Doing",
+        "id": "10046",
+        "statusCategory": {
+          "self": "https://some-team.atlassian.net/rest/api/2/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      }
+    }
+  }
+}

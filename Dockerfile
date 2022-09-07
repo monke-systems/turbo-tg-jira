@@ -19,5 +19,6 @@ RUN npm pkg set scripts.prepare="ls"
 RUN npm i --no-audit --omit=dev
 
 COPY --from=build /app/dist .
+COPY --from=build /app/default-templates ./default-templates
 
 CMD ["node", "-r", "source-map-support", "index.js"]

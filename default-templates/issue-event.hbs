@@ -1,0 +1,3 @@
+📝 <a href='{{ issue.self }}'>{{ issue.key}}</a> {{#eq webhookEvent "jira:issue_created" }}новая задача{{/eq}}{{#eq webhookEvent "jira:issue_updated" }}задача обновлена{{/eq}}
+🔍 {{ issue.fields.summary }}
+👤 <a href='{{ user.self }}'>{{ user.displayName }}</a>
