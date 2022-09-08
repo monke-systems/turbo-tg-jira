@@ -35,6 +35,7 @@ export const handleHook = async (args: HandleHookArgs) => {
 
       await bot.telegram.sendMessage(handler.tgChannelId, text, {
         parse_mode: 'HTML',
+        disable_web_page_preview: true,
       });
     }
   }
