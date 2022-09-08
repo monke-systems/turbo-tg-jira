@@ -1,7 +1,7 @@
 {
   "name": "turbo-tg-jira",
   "description": "turbo-tg-jira service",
-  "version": "0.9.7",
+  "version": "0.9.8",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": true,
