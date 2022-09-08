@@ -1,6 +1,7 @@
 import { readFileSync } from 'fs';
 import * as path from 'path';
 import * as handlebars from 'handlebars';
+import * as loglevel from 'loglevel';
 
 export enum DEFAULT_TEMPLATES {
   COMMENT_EVENT_TEMPLATE = 'default-templates/comment-event.hbs',
@@ -32,8 +33,8 @@ export const compileMessageTemplates = (
       });
       return accum;
     } catch (e) {
-      console.error(`Template compilation error ${definition.filePath}`);
-      console.error(e);
+      loglevel.error(`Template compilation error ${definition.filePath}`);
+      loglevel.error(e);
       return accum;
     }
   }, []);

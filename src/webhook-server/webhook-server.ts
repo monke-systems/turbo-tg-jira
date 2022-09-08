@@ -1,5 +1,6 @@
 import * as traps from '@dnlup/fastify-traps';
 import * as fastify from 'fastify';
+import * as loglevel from 'loglevel';
 import type { Telegraf } from 'telegraf';
 import type { AppConfig, Hanlder } from '../config';
 import type { JiraWebhook } from '../jira-types';
@@ -77,5 +78,5 @@ export const startWebhookServer = async (
     host: '0.0.0.0',
     port: webhookServer.port,
   });
-  console.log('Webhook server listening on', host);
+  loglevel.info('Webhook server listening on', host);
 };

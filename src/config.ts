@@ -1,6 +1,15 @@
 import { ConfigField } from '@monkee/turbo-config';
+import { IsEnum } from 'class-validator';
 import { DEFAULT_TEMPLATES } from './message-templates';
 
+export enum LOG_LEVEL {
+  TRACE = 'trace',
+  DEBUG = 'debug',
+  INFO = 'info',
+  WARN = 'warn',
+  ERROR = 'error',
+  SILENT = 'silent',
+}
 export class WebhookServerConfig {
   @ConfigField()
   port: number = 3000;
@@ -35,6 +44,10 @@ export class TgBot {
 }
 
 export class AppConfig {
+  @ConfigField()
+  @IsEnum(LOG_LEVEL)
+  loglevel: LOG_LEVEL = LOG_LEVEL.INFO;
+
   @ConfigField({ nested: true })
   webhookServer!: WebhookServerConfig;
 

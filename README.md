@@ -11,6 +11,7 @@ Application looking for **config.yaml** file in the working directory.
 Example config:
 
 ```yaml
+loglevel: info
 webhookServer:
   port: 80
   path: /webhook
