@@ -37,3 +37,9 @@ handlers:
 Templates powered with [handlebars](https://handlebarsjs.com/). All [handlebars-helpers](https://github.com/helpers/handlebars-helpers) are also available.
 
 [Examples](default-templates) (default templates in the same time)
+
+## Endpoints
+
+### Healthcheck
+
+**GET** /healtz
