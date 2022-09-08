@@ -1,9 +1,9 @@
 # Turbo tg jira config reference
 
-**WEBHOOK_SERVER_PORT**: number; *default 3000*
+**webhookServer.port**: number; *default 3000*
 
-**WEBHOOK_SERVER_PATH**: string; *default /webhook*
+**webhookServer.path**: string; *default /webhook*
 
-**BOTS**: array; *required*
+**bots**: array; *required*
 
-**HANDLERS**: array; *required*
+**handlers**: array; *required*

@@ -15,6 +15,7 @@ helpers({
 
 const main = async () => {
   const { config } = await compileConfig(AppConfig, {
+    ymlFiles: ['config.yaml'],
     envFiles: ['.env.development', '.env.development.local'],
     loadEnvFiles: process.env.NODE_ENV === 'development',
   });
