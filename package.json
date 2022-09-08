@@ -16,6 +16,7 @@
     "lint": "eslint \"{src,tests}/**/*.ts\"",
     "lint:fix": "eslint \"{src,tests}/**/*.ts\" --fix",
     "prepare": "husky install",
+    "generate-config-doc": "ts-node dev-scripts/generate-config-doc.ts",
     "pre-commit": "lint-staged"
   },
   "dependencies": {
