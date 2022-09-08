@@ -19,7 +19,12 @@ export const startWebhookServer = async (
 ) => {
   const { webhookServer } = config;
 
-  const app = fastify.fastify();
+  const app = fastify.fastify({
+    logger: {
+      enabled: true,
+      level: config.webhookServer.loglevel,
+    },
+  });
 
   await app.register(traps.default);
 

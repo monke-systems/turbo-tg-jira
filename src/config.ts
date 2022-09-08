@@ -12,6 +12,10 @@ export enum LOG_LEVEL {
 }
 export class WebhookServerConfig {
   @ConfigField()
+  @IsEnum(LOG_LEVEL)
+  loglevel: LOG_LEVEL = LOG_LEVEL.INFO;
+
+  @ConfigField()
   port: number = 3000;
 
   @ConfigField()

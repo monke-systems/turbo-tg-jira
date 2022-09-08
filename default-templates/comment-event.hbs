@@ -1,5 +1,6 @@
-📝 <a href='{{ issue.self }}'>{{ issue.key}}</a> {{#eq webhookEvent "comment_created" }}новый коммент{{/eq}}{{#eq webhookEvent "comment_updated" }}коммент обновлен{{/eq}}
+📝 <a href='{{#with (urlParse issue.self)}}{{ protocol }}//{{ host }}/browse/{{~/with}}{{ issue.key}}'>{{ issue.key}}</a>
+{{~#eq webhookEvent "comment_created" }} новый коммент{{/eq}}{{#eq webhookEvent "comment_updated" }} коммент обновлен{{/eq}}
 🔍 {{ issue.fields.summary }}
-👤 <a href='{{ comment.author.self }}'>{{ comment.author.displayName }}</a>:
+👤 {{ comment.author.displayName }}:
 
-{{ comment.body }}
+{{ truncate comment.body 200 "... слишком длинный коммент" }}

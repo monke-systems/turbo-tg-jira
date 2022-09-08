@@ -15,6 +15,7 @@ loglevel: info
 webhookServer:
   port: 80
   path: /webhook
+  loglevel: info
 bots:
   - name: test-bot
     token: '0=0=0=0=0=0=0=0'
